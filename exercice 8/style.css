@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f1f5f8;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 100vw;
+    height: auto;
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: #102a42;
+}
+header hr{
+    height: 5px;
+    width: 80px;
+    background-color: #c59d5f;
+    border: none;
+}
+header button{
+    border-radius: 8px;
+    border: solid 2px #c59d5f;
+    color: #c59d5f;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: #f1f5f8;
+
+}
+
+section{
+    width: 43vw;
+    height: 25vh;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+section figure{
+    border: solid 2px #c59d5f;
+    border-radius: 5px;
+    width: 18vw;
+    height: 90%;
+}
+section article {
+    width: 25vw;
+}
+article div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+

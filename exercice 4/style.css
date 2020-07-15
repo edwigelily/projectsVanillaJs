@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: beige;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 10px;
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container nav ul, .mobile-only  ul{
+    list-style: none;
+}
+
+.container nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu, .mobile-only {
+    display: none;
+}
+.visible{
+    display: block;
+
+}
+@media screen and (max-width: 800px) {
+    .social-media {
+        display: none;
+    }
+    .menu {
+        display: block;
+        transition: transform .2s ease-in-out;
+    }
+    .menu:hover{
+        cursor: pointer;
+        transform: rotate(90deg);
+    }
+    .container nav ul {
+        display: none;
+    }
+    .mobile-only {
+
+        position: absolute;
+        z-index: -1;
+        left: 0px;
+        padding: 10px;
+        bottom: -80px;
+        background-color: white;
+        width: 100%;
+    }
+    .mobile-only li {
+        word-spacing: 30px;
+    }
+}

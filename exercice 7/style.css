@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f5f8;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+h1,i{
+    color: #c59d5f;
+    font-size: 3em;
+    font-family: 'Great Vibes', cursive;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40vw;
+    padding: 20px;
+    background-color: #fff;
+    color: #102a42;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+}
+div.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article div.question span{
+    letter-spacing: 4px;
+}
+button{
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform .5s linear;
+
+}
+button:hover{
+
+    transform: rotate(90deg);
+
+}
+section{
+    padding: 5px;
+    display: none;
+}
+.visible{
+    display: block;
+}
+.invisible{
+    display: none;
+}
+p{
+    color: #617d98;
+}

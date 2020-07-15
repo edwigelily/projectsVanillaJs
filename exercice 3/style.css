@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f5f8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10vh;
+}
+h1{
+    letter-spacing: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #102a42;
+    font-size: 2.5em;
+}
+hr{
+    background-color: #49a6e9;
+    width: 8vw;
+    height: 0.7vh;
+}
+section#conteneur{
+    width: 50vw;
+    height: 65vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px ;
+    border-radius: 8px;
+    padding:  24px;
+}
+
+img{
+    height: 30vh;
+    width: auto;
+    border-radius: 50%;
+}
+section#conteneur span:nth-child(2){
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #102a42;
+    line-height: 16px;
+    letter-spacing: 4px;
+    align-items: center;
+    
+}
+section#conteneur span:nth-child(3){
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: #49a6e9;
+    line-height: 20.4px;
+    align-items: center;
+}
+article{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20.4px;
+    text-align: center;
+}
+div#sens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#sens>button{
+    padding: 1px;
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: #49a6e9;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+button#aleatoire{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #49a6e9;
+    background-color: #ebf7ff;
+    border-radius: 8px;
+    padding: 4px 8px 4px 8px;
+    box-shadow: none;
+    cursor: pointer;
+}
+button#aleatoire:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #063251;
+    background-color: #49a6e9;
+    border-radius: 8px;
+    padding: 4px 8px 4px 8px;
+    box-shadow: none;
+    transition-duration: 1s;
+    cursor: pointer;
+}
